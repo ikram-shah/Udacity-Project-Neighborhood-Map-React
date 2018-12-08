@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import Header from "./components/Header";
+import Content from "./components/Content";
 
 class App extends Component {
   initMap() {
@@ -30,8 +32,8 @@ createMyMapScript(){
     this.loadMyScript();
     return (
       <div className="App">
-        <Headers />
-        <Contents />
+        <Header />
+        <Content />
       </div>
     );
   }
