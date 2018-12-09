@@ -10,7 +10,7 @@ function handleErrors(response) {
 
 // To get the data from the foursquare - Food near Coimbatore, Tamilnadu, India
 export const fetchLocation = () => {
-  return fetch(`https://api.foursquare.com/v2/venues/explore?cat=food&near=coimbatore&client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}&v=20180323&query=coffee`)
+  return fetch(`https://api.foursquare.com/v2/venues/explore?cat=food&near=coimbatore&client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}&v=20181209`)
     .then(handleErrors)
     .then(response => response.json())
     .then(result => result.response.groups[0].items)

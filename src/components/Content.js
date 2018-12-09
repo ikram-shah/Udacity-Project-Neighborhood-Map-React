@@ -1,7 +1,7 @@
 import React from 'react';
 import Map from './Map';
 import List from './List';
-import * as LocationsAPI from '../api/Locations';
+import * as APIlocations from '../api/Locations';
 
 class Content extends React.Component {
   state = {
@@ -10,7 +10,7 @@ class Content extends React.Component {
     query: ''
   };
   componentDidMount() {
-    LocationsAPI.fetchLocation().then(response => this.setState({
+    APIlocations.fetchLocation().then(response => this.setState({
       locations: response,
       queryResult: response
     }));
