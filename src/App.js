@@ -25,7 +25,7 @@ class App extends Component {
 
   buildMap() {
     let mapScript = document.createElement('script');
-    const API_KEY = 'AIzaSyAssifZMl5AEdnyZK2qjAxSfj7rO4eU97k';
+    const API_KEY = '';
     mapScript.src = `https://maps.googleapis.com/maps/api/js?key=${API_KEY}&callback=initMap`;
     mapScript.async = true;
     mapScript.defer = true;
