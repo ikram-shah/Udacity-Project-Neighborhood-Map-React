@@ -1,3 +1,19 @@
+# udacity-project-neighborhood-map-react-app
+
+For Neighborhood Map (React) project, which is a part of Udacity Frontend Web Development Nanodegree.
+
+## What is this?
+
+This is a one page neighborhood map, made specifically for restaurents near coimbatore (Tamilnadu, India). Here anyone can search for restaurents. The restaurents list has been fetched using Foursquare API.
+
+## How to run this?
+- `npm install`
+- `npm start`
+
+Followed the Udacity CSS Style Guide, HTML Style Guide, JavaScript Style Guide & Git Style Guide
+
+---------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
